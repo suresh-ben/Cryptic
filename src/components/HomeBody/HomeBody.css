@@ -1,0 +1,44 @@
+.body {
+  margin: 0 5rem;
+  color: white;
+  height: calc(100vh - 10rem);
+}
+.content {
+  padding-top: 1rem;
+}
+.content span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.explain {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.explain img {
+  height: 35vh;
+  padding: 2rem;
+  position: relative;
+  margin-top: calc(50vh - 17.5vh - 10rem);
+
+  border-style: solid;
+  border-width: .4rem;
+  border-radius: 2rem;
+  border-color: linear-gradient(red, yellow);
+}
+
+@media only screen and (max-width: 991px) {
+  .body {
+    margin-left: 2.5rem;
+    height: auto;
+  }
+  .explain img {
+    margin-left: 2.5rem;
+    display: none;
+  }
+  .content {
+    padding-top: 0;
+  }
+}

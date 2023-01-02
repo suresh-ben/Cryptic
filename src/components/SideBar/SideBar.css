@@ -1,0 +1,10 @@
+.side-main {
+  height: 80vh;
+  width: 5rem;
+  padding-top: 3rem;
+
+  position: fixed;
+  right : 0;
+  top : 0;
+
+}

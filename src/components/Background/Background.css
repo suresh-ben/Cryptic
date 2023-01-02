@@ -1,0 +1,15 @@
+.backgroung-image {
+  position: fixed;
+  z-index: -1;
+
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .backgroung-image{
+    transform: rotate(0deg);
+  }
+}

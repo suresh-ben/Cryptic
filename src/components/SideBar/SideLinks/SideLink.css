@@ -1,0 +1,25 @@
+.side-link {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 2rem 0 2rem .5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-style: solid;
+  border-color: white;
+  border-radius: .5rem;
+
+  transition: .2s;
+}
+.side-link:hover {
+  position: relative;
+  height: 3rem;
+  width: 3rem;
+}
+
+.side-link img {
+  height : 60%;
+  width: 60%;
+}
